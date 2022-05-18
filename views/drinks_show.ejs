@@ -7,6 +7,10 @@
     <title>Drinks Show</title>
 </head>
 <body>
-    <h1><%= drinks.name %></h1>
+    <h1>At Foo Bar</h1>
+    <h2><%= drinks.name[0].toUpperCase()+drinks.name.substring(1) %></h2>
+    <img src="<%drinks.image%>" alt="<%= drinks.name %>">
+    <h3> <%= drinks.price %>  </h3>
+    <a href="/drinks">Back to Drinks Index</a>
 </body>
 </html>
