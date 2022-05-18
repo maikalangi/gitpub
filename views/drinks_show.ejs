@@ -8,8 +8,8 @@
 </head>
 <body>
     <h1>At Foo Bar</h1>
-    <h2><%= drinks.name[0].toUpperCase()+drinks.name.substring(1) %></h2>
-    <img src="<%drinks.image%>" alt="<%= drinks.name %>">
+    <h2><%=drinks.name[0].toUpperCase()+drinks.name.substring(1)%></h2>
+    <img src="<%=drinks.image%>.jpg" alt="<%= drinks.name %>">
     <h3> <%= drinks.price %>  </h3>
     <a href="/drinks">Back to Drinks Index</a>
 </body>
